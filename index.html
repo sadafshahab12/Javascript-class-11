@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Dom Events</title>
+  </head>
+  <body>
+    <div class="changeColor" onmouseover="this.style.backgroundColor= 'purple'">
+      1
+    </div>
+    <!-- <div class="changeColor">2</div> -->
+    <button
+      class="clickBtn"
+      onclick="document.querySelector('.changeColor').style.backgroundColor = 'red'"
+    >
+      color button
+    </button>
+    <div class="inputtext"></div>
+    <input type="text" class="keyevents" />
+    <img
+      src="https://i.pinimg.com/736x/8b/2c/a9/8b2ca94ce69d212b26391258eba2d6d5.jpg"
+      alt=""
+      style="width: 200px; height: 200px"
+      class="image"
+    />
+    <script src="app.js"></script>
+  </body>
+</html>
